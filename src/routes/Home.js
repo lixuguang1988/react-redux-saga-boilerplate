@@ -17,6 +17,7 @@ class Home extends Component {
 
   render() {
     const { posts, profile, error, ajax } = this.props.home;
+    console.log(this.props);
     if(error){
       return (
         <div>
