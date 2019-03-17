@@ -11,7 +11,10 @@ class Home extends Component {
 
   componentDidMount(){
     this.props.dispatch({
-      type: 'ROUTE_IN_HOME'
+      type: 'ROUTE_IN_HOME',
+      payload: {
+        path: '/'
+      }
     })
   }
 
